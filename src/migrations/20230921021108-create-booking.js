@@ -29,7 +29,8 @@ module.exports = {
       },
       noOfSeats : {
         type: Sequelize.INTEGER,
-        allowNull:false
+        allowNull:false,
+        defaultValue:1
       },
       totalCost: {
         type: Sequelize.INTEGER,
